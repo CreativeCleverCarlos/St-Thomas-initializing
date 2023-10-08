@@ -21,8 +21,10 @@ body{
 
 .header_section{
     width: 100%;
-    min-height: 15vh;
-    max-height: 16vh;
+    min-height: 10vh;
+    max-height: 11vh;background-color: #ececef;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ececef 10px ), repeating-linear-gradient( #80dfff55, #80dfff );
  
 }
 
@@ -31,11 +33,11 @@ li{
 }
 
 .cross_picture{
-    height: 15vh;
+    height: 10vh;
 }
 
 .navigation_bar{
-    margin-top: 5%;
+    margin-top: 2.5%;
     float: right;
     width: 50%;
     display: flex;
@@ -81,7 +83,7 @@ h1{
 }
 .main_section{
     width: 100%;
-    min-height: 85vh;
+    min-height: 90vh;
     
 }
 
@@ -94,10 +96,34 @@ main{
     background-size: cover;
 }
 
+.below_main_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 70vh;
+    padding-top: 7%;
+    background-color: #ececef;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ececef 10px ), repeating-linear-gradient( #80dfff55, #80dfff );
+   
+}
+
+.portion_of_below_main_section img{
+    height: 25vh;
+}
 
 /***************************** Footer Styles ********************************/
 .footer_section{
     width: 100%;
 
     border: solid blue 3px;
+    text-align: center;
+    min-height: 30vh;
+    padding-top: 10%;
+    background-color: grey;
 }
+.footer_section h4{
+    color: white;
+}
+
+
