@@ -139,3 +139,38 @@ a:hover{
 
 
 /*******************************About Us Page ************************************/
+
+.about_us .title{
+    color: white;
+}
+
+.about_us .above_main_picture{
+    width: 84%;
+    min-height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.73)),
+    url("../photos/bible_picture.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about_us .below_main_picture{
+    display: grid;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.about_us .grid_container{
+    /**Going with float to seperate the text and the images to keep them within the same line**/
+    display: grid;
+    grid-template-columns: 50% 1fr;
+
+   
+}
+
