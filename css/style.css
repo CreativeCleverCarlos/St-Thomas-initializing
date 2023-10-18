@@ -158,19 +158,80 @@ a:hover{
     background-size: cover;
 }
 
-.about_us .below_main_picture{
+
+
+    .about_us .grid_container{
+    /**Going with float to seperate the text and the images to keep them within the same line**/
     display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 84%;
     margin-left: auto;
     margin-right: auto;
-
 }
 
-.about_us .grid_container{
-    /**Going with float to seperate the text and the images to keep them within the same line**/
-    display: grid;
-    grid-template-columns: 50% 1fr;
+    /***********************************Worship Page *****************************************/
 
-   
-}
+    .worship .title{
+        color: white;
+    }
+    
+    .worship .above_main_picture{
+        width: 84%;
+        min-height: 40vh;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.73)),
+        url("../photos/bible_picture.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 
+    .worship .grid_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .worship .grid_item{
+        padding-bottom: 40vh
+    }
+
+    /************************************Contact *****************************************************/
+
+    .contact fieldset{
+        border: 0;
+    }
+
+    .contact .grid_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact .grid_item1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .contact .grid_item2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row: auto;
+        padding-bottom: 40vh
+    }
+
+    .contact .grid_item3{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row: auto;
+        padding-bottom: 40vh;
+    }
