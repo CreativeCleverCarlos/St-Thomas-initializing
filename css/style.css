@@ -144,6 +144,17 @@ a:hover{
     color: white;
 }
 
+.about_us h1{
+        text-align: center;
+        font-size: 3vw;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        color: white;
+    }
+
+
 .about_us .above_main_picture{
     width: 84%;
     min-height: 40vh;
@@ -161,7 +172,6 @@ a:hover{
 
 
     .about_us .grid_container{
-    /**Going with float to seperate the text and the images to keep them within the same line**/
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 84%;
@@ -169,9 +179,46 @@ a:hover{
     margin-right: auto;
 }
 
+    .about_us .text_container{
+        display: grid;
+        justify-content:space-around;
+    }
+
+    .about_us .side_pictures_container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 20vw);
+    grid-gap: 1.5vh;
+    width: 70%;
+    justify-self: end;
+}
+
+
+
+    .about_us .side_picture img{
+        width: 85%;
+        height: 100%;
+        object-fit: cover;
+        justify-self: end;
+    }
+
+    .about_us .below_main_picture{
+      
+    }
+
     /***********************************Worship Page *****************************************/
 
     .worship .title{
+        color: white;
+    }
+
+    .worship h1{
+        text-align: center;
+        font-size: 3vw;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 5%;
+        padding-bottom: 3%;
         color: white;
     }
     
