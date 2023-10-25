@@ -125,10 +125,9 @@ a:hover{
 /***************************** Footer Styles ********************************/
 .footer_section{
     width: 100%;
-
     text-align: center;
-    min-height: 30vh;
-    padding-top: 10%;
+    min-height: 20vh;
+    padding-top: 3%;
     background-color: grey;
 }
 .footer_section h4{
@@ -177,6 +176,7 @@ a:hover{
     width: 84%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3%;
 }
 
     .about_us .text_container{
@@ -200,10 +200,6 @@ a:hover{
         height: 100%;
         object-fit: cover;
         justify-self: end;
-    }
-
-    .about_us .below_main_picture{
-      
     }
 
     /***********************************Worship Page *****************************************/
@@ -242,10 +238,19 @@ a:hover{
         width: 84%;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 3%;
     }
 
     .worship .grid_item{
-        padding-bottom: 40vh
+        padding-bottom: 5vh
+    }
+
+    .worship .grid_item img{
+            width: 85%;
+            height: 100%;
+            object-fit: cover;
+            justify-self: end;
+    
     }
 
     /************************************Contact *****************************************************/
@@ -260,6 +265,7 @@ a:hover{
         width: 84%;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 3%;
     }
 
     .contact .grid_item1{
@@ -273,12 +279,42 @@ a:hover{
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: auto;
-        padding-bottom: 40vh
+        padding-bottom: 20vh
     }
 
     .contact .grid_item3{
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: auto;
-        padding-bottom: 40vh;
+        padding-bottom: 20vh;
+    }
+
+    /************************************Give ****************************************/
+
+    .give .title{
+        color: white;
+    }
+    
+    .give h1{
+            text-align: center;
+            font-size: 3vw;
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 5%;
+            padding-bottom: 3%;
+            color: white;
+        }
+
+    .give .above_main_picture{
+        width: 84%;
+        min-height: 40vh;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.73)),
+        url("../photos/bible_picture.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
