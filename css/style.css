@@ -160,12 +160,10 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.73)),
-    url("../photos/bible_picture.jpg");
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    url("../photos/cross-religion-christianity-jesus-christ-faith-religious-christian-holy.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -224,12 +222,10 @@ a:hover{
         margin-left: auto;
         margin-right: auto;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.73)),
-        url("../photos/bible_picture.jpg");
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        url("../photos/bible_studies_pic.jpg");
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .worship .grid_container{
@@ -311,10 +307,8 @@ a:hover{
         margin-left: auto;
         margin-right: auto;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.73)),
-        url("../photos/bible_picture.jpg");
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        url("../photos/Christianity-Jesus_Christ_Died_for_your_Sin.jpg");
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
