@@ -130,24 +130,25 @@ a:hover{
     background-color: white;
 }
 
-.portion_of_below_main_section{
-}
-
 .portion_of_below_main_section img{
     height: 25vh;
 }
 
 /***************************** Footer Styles ********************************/
-.footer_section{
+.footer_section, .footer_section a{
     width: 100%;
     text-align: center;
     min-height: 20vh;
     padding-top: 1.5%;
     background-color: grey;
-}
-.footer_section h4{
     color: white;
+    font-size: 1vw;
 }
+
+.footer_section h5{
+    color: black;
+}
+
 
 
 
@@ -290,14 +291,15 @@ a:hover{
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: auto;
-        padding-bottom: 20vh
+        padding-bottom: 5vh;
     }
 
     .contact .grid_item3{
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: auto;
-        padding-bottom: 20vh;
+        height: 50vh;
+        padding-bottom: 5vh;
     }
 
     /************************************Give ****************************************/
