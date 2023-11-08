@@ -330,6 +330,15 @@ a{
         padding-bottom: 5vh;
     }
 
+    .contact label, .contact input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact .makeLonger{
+        width: 85%;
+    }
+
     /************************************Give ****************************************/
 
     .give .title{
