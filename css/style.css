@@ -384,3 +384,10 @@ a{
         margin-right: auto;
         grid-gap: 1%
     }
+
+
+    /************ Responive designs for cell phones (360 x 640) ********************************/
+
+    @media (min-width: 480px){
+
+    }
