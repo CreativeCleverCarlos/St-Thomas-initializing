@@ -645,6 +645,43 @@ a{
 
 /************************** Contact Phone Responive Page ***********************************/
 
+
+
+    .contact .grid_container{
+        display: grid;
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        grid-template: none;
+    }
+
+    .contact .grid_item1{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column: auto;
+    }
+
+    .contact .grid_item2{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column: auto;
+        padding-bottom: 5vh;
+    }
+
+    .contact .grid_item3{
+        grid-row-start: 3;
+        grid-column-end: 4;
+        grid-column: auto;
+        padding-bottom: 5vh;
+    }
+
+
+    .contact .makeLonger{
+        width: 85%;
+    }
+
+
       }
 
 
