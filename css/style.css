@@ -557,6 +557,55 @@ a{
     font-size: 3.3vw;
 }
 
+
+
+/********************************* ABOUT US PAGE ******************************************************/
+
+/** This is saved under the about us page, but i'm applying it to everywhere**/
+.above_main_picture h1{
+    font-size: 10vw;
+}
+.about_us .above_main_picture{
+    margin-bottom: 5%;
+}
+
+.about_us .grid_container{
+    grid-template-columns: 1fr;
+}
+
+.about_us .side_pictures_container{
+    grid-column-start: 1;
+}
+
+.about_us .text_container{
+    row-gap: 4vh;
+    margin-bottom: 5%;
+}
+
+
+.about_us .text_container h3{
+    font-size: 7vw;
+}
+
+.about_us .text_container p{
+    font-size: 5vw;
+    line-height: 2.8vh;
+}
+
+.about_us .side_pictures_container{
+    width: 100%;
+    grid-template-rows: repeat(3, 80vw);
+}
+
+.about_us .side_pictures_container .side_picture{
+    height:100%;
+}
+
+.about_us .side_pictures_container img{
+    width: 100%;
+    
+}
+   
       }
 
 
