@@ -421,17 +421,23 @@ a{
             width: 100%;
             height: 100%;
             position: fixed;
-            background-color: lightgrey;
+            background-color: lightslategrey;
             overflow: hidden;
 
         }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+
         .menu a{
-            display: block;
-            padding: 30px;
             color: var(--white);
+            font-size: 8vw;
+            margin: 3%;
         }
         .menu a:hover{
-            background-color: red;
+            background-color: lightblue;
         }
         .navigation_bar{
             max-height: 0;
@@ -495,24 +501,64 @@ a{
 /** The area for the sunday service and location of bible studies. gotta have them stack on top of one another**/
 
 /** Everything below is about repositioning the parent element for the pictures, and text**/
-.below_main_section{
+.index .below_main_section{
     min-height: 5vh;
     display: flex;
     flex-direction: column;
 }
 
-.portion_of_below_main_section{
+.index .portion_of_below_main_section{
     width: 100%; 
 }
 
-.portion_of_below_main_section img{
+.index .portion_of_below_main_section img{
     height: 20vh;
     width: 85%;
     margin-left: 7%;
 }
  
+.index #join_us_in_person_button, #join_us_online_button{
+    width: 50%;
+    height: 4vh;
+    margin-bottom: 5%;
+    font-size: 5vw;
+}
+
 /**Everything below is about resizing the text **/
       
+.index h1{
+    font-size: 10vw;
+}
+
+.index .portion_of_below_main_section h3{
+    font-size: 6vw;
+    margin-left: 3.5%
+}
+
+.index .learn_more_buttons{
+    height: 3vh;
+    font-size: 4vw;
+}
+
+.index .below_main_section .portion_of_below_main_section + .portion_of_below_main_section{
+    margin-top: 5%;
+}
+
+.index .white_box_of_below_main p{
+    font-size: 4.5vw;
+    margin-left: 3.5%;
+}
+
+.footer_section h4, h5{
+    font-size: 3.3vw;
+}
+
+.footer_section .Portion_of_footer_section a{
+    font-size: 3.3vw;
+}
+
       }
+
+
 
  
