@@ -69,6 +69,10 @@ a{
 }
 
 
+.contact .side-menu{
+    display: none;
+}
+
 /***************************** Main Styles ********************************/
 
 .index h1{
@@ -305,6 +309,9 @@ a{
 
     /************************************Contact *****************************************************/
 
+    /****It isn't aligning right even though I copied and pasted so, this is the solution now **/
+ 
+
     .contact fieldset{
         border: 0;
     }
@@ -340,10 +347,6 @@ a{
         padding-bottom: 5vh;
     }
 
-    .contact label, .contact input{
-        display: flex;
-        flex-direction: column;
-    }
 
     .contact .makeLonger{
         width: 85%;
@@ -388,7 +391,7 @@ a{
     .give .grid_container{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        height: 40vh;
+        min-height: 40vh;
         width: 84%;
         margin-left: auto;
         margin-right: auto;
@@ -627,8 +630,21 @@ a{
    }
 
    /********************* Give Phone Responive Page *****************************************/
+   .give .just_below_main_picture h2{
+    font-size: 7vw;
+   }
 
-   
+   .give .grid_container p{
+        font-size: 4vw;
+   }
+
+   .give .grid_container{
+    grid-template-columns: 1fr;
+    min-height: 50vh;
+}
+
+/************************** Contact Phone Responive Page ***********************************/
+
       }
 
 
