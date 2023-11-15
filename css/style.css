@@ -559,7 +559,7 @@ a{
 
 
 
-/********************************* ABOUT US PAGE ******************************************************/
+/********************************* ABOUT US Phone Responive PAGE ******************************************************/
 
 /** This is saved under the about us page, but i'm applying it to everywhere**/
 .above_main_picture h1{
@@ -605,6 +605,29 @@ a{
     width: 100%;
     
 }
+
+/**************************  Worship Phone Responive Page *****************************************/
+   .worship .grid_container{
+        grid-template-columns: 1fr;
+   }
+
+   .worship .grid_item h2{
+    font-size: 7vw;
+   }
+
+   .worship .grid_item p{
+    font-size: 5vw;
+   }
+
+   .worship .grid_item a{
+    margin-top: 3%;
+    display: grid;
+    width: 50%;
+    font-size: 4vw;
+   }
+
+   /********************* Give Phone Responive Page *****************************************/
+
    
       }
 
