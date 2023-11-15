@@ -42,6 +42,9 @@ li{
     margin-top: 2.25%;
     float: right;
     width: 50%;
+}
+
+.menu{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -59,6 +62,12 @@ a{
    color: black;
    font-size: 1.2vw;
 }
+
+/** get's rid of the button that has to be clicked**/
+.side-menu{
+    display: none;
+}
+
 
 /***************************** Main Styles ********************************/
 
@@ -388,6 +397,9 @@ a{
 
 
     /************ Responive designs for cell phones (360 x 640) ********************************/
+    /************************* Index page ***********************************/
+
+    /** Everything below until I say it's done, is just to get the "hamburger" menu and grey screen when it's clicked**/
 
     @media (max-width: 480px){
       .header_section{
@@ -465,7 +477,7 @@ a{
         
                 /* Toggle menu icon */
         .side-menu:checked ~ nav{
-            max-height: 100%;
+            max-height: 100%;   
         }
         .side-menu:checked ~ .hamb .hamb-line {
             background: transparent;
@@ -478,14 +490,29 @@ a{
             transform: rotate(45deg);
             top:0;
         }
-                
+               /** Nav bar edit is done here **/
+
+/** The area for the sunday service and location of bible studies. gotta have them stack on top of one another**/
+
+/** Everything below is about repositioning the parent element for the pictures, and text**/
+.below_main_section{
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.portion_of_below_main_section{
+    width: 100%; 
+}
+
+.portion_of_below_main_section img{
+    height: 20vh;
+    width: 85%;
+    margin-left: 7%;
+}
+ 
+/**Everything below is about resizing the text **/
+      
       }
 
-
-
-
-
-    @media(min-width: 820px){
-
-    }
-
+ 
