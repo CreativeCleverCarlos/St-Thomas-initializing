@@ -159,12 +159,17 @@ a{
 }
 
 /***************************** Footer Styles ********************************/
-.footer_section, .footer_section a{
+.footer_section{
     width: 100%;
     text-align: center;
     min-height: 20vh;
     padding-top: 1.5%;
     background-color: grey;
+    color: white;
+    font-size: 1vw;
+}
+
+.footer_section a{
     color: white;
     font-size: 1vw;
 }
@@ -305,6 +310,11 @@ a{
     .worship .button:hover{
         transition: 0.5s;
         opacity: 80%;
+    }
+
+    .worship .grid_item a{
+        font-size: 1em;
+        font-weight: bold;
     }
 
     /************************************Contact *****************************************************/
